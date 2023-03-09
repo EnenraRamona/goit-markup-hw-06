@@ -799,6 +799,10 @@ margin-top: 130px;
 
   font-size: 14px;
   color: black; 
+
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color;
 }
 
 .modal-input:focus{
@@ -832,6 +836,10 @@ margin-top: 130px;
   left: 16px;
   
   transform: translateY(-50%);
+
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
 }
 
 
