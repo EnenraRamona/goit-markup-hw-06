@@ -767,12 +767,13 @@ p {
 
 
 .form-title{
-  position: absolute;
+
+ 
+ 
   text-align: center;
-  top: 72px;
-  left: 24px;
-  right: 24px;
-  margin-bottom: 34px;
+ 
+  margin-top: 32px;
+  
 
   font-family: 'Roboto';
     font-weight: 500;
@@ -781,14 +782,15 @@ p {
 }
 
 .modal-form{
-margin-top: 130px;
+margin-top: 8px;
 }
 
 .modal-field{
-  margin-bottom: 26px;
+  margin-bottom: 8px;
 }
 
 .modal-input{
+ 
   width: 360px;
   height: 40px;
   border: 1px solid var(--background-color-footer);
@@ -814,6 +816,8 @@ margin-top: 130px;
 }
 
 .input-text{
+
+    
     display: inline-block;
     margin-bottom: 4px;
 
@@ -842,8 +846,31 @@ margin-top: 130px;
     transition-property: fill;
 }
 
+.modal-comment{
+  width: 360px;
+  height: 120px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 
+  border: 1px solid var(--background-color-footer);
+  border-radius: 4px;
+  resize: none;
+  transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color;
+
+}
+
+.modal-comment:focus {
+  border-color: var(--btn-active-bgc);
+}
 
 
 
@@ -883,12 +910,14 @@ margin-top: 130px;
 
 
 .btn-modal-close {
+  display: block;
   box-sizing: border-box;
   position: absolute;
   right: 24px;
   top: 24px;
   width: 24px;
   height: 24px;
+  
 
 
   
@@ -904,8 +933,7 @@ margin-top: 130px;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: fill;
-  background-color;
+  transition-property: fill; background-color;
 
 }
 
