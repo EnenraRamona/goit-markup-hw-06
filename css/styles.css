@@ -801,6 +801,14 @@ margin-top: 130px;
   color: black; 
 }
 
+.modal-input:focus{
+  border-color: var(--btn-active-bgc);
+}
+
+.modal-input:focus + .modal-icon{
+  fill: var(--btn-active-bgc);
+}
+
 .input-text{
     display: inline-block;
     margin-bottom: 4px;
