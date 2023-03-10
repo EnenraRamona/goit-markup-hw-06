@@ -872,11 +872,54 @@ margin-top: 8px;
   border-color: var(--btn-active-bgc);
 }
 
+.check-text{
+display: flex;
 
+  margin-top: 16px;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--labelcolor);
+}
 
+.check-text::before{
+ 
+  border: 1px solid var(--background-color-footer);
+  
+    border-radius: 2px;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-top: -1px;
+}
 
+.input-check:checked + .check-text::before{
+  background-color: var(--accent-color);
+  background-image: url(../images/icon-tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 
+}
 
+.input-check:focus+.check-text::before {
+background-color: var(--accent-color);
+  background-image: url(../images/icon-tick.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.policy-link{
+  margin-left: 3px;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--btn-hero-noneactive-bgc);
+}
 
 .modal-btn-send{
   display: block;
