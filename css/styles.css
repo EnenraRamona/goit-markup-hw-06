@@ -748,7 +748,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  padding: 24px;
+  padding: 72px 24px 0 24px;
   
 
   border-radius: 4px;
@@ -772,7 +772,7 @@ p {
  
   text-align: center;
  
-  margin-top: 32px;
+  
   
 
   font-family: 'Roboto';
