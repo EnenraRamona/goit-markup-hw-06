@@ -809,6 +809,7 @@ margin-top: 8px;
 
 .modal-input:focus{
   border-color: var(--btn-active-bgc);
+  outline: none;
 }
 
 .modal-input:focus + .modal-icon{
@@ -870,6 +871,7 @@ margin-top: 8px;
 
 .modal-comment:focus {
   border-color: var(--btn-active-bgc);
+  outline: none;
 }
 
 .check-text{
@@ -1102,7 +1104,7 @@ background-color: var(--accent-color);
   border-radius: 4px;
   opacity: 1;
   padding-left: 15px;
-
+  outline: none;
 }
 
 
